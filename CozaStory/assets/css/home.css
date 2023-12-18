@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#freeShiping {
+  width: 100%;
+  height: 40px;
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#freeShiping .freeShipingTxt {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+#freeShiping .freeShipingTxt p {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #b2b2b2;
+}
+#freeShiping .helpandfaqs {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 15px;
+  width: 100%;
+  height: 40px;
+}
+#freeShiping .helpandfaqs p {
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  font-size: 12px;
+  transition: 0.6s ease;
+  cursor: pointer;
+  line-height: 22px;
+  font-weight: 400;
+  color: #b2b2b2;
+  border: 1px solid #b2b2b2;
+}
+#freeShiping .helpandfaqs p:hover {
+  color: #6c7ae0;
+}
+
+nav {
+  background-color: transparent;
+  width: 100%;
+  min-height: 84px;
+  position: fixed !important;
+  z-index: 1;
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .list {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .list a {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+  transition: 0.6s ease;
+  color: #222222;
+}
+nav .list a:hover {
+  color: #6c7ae0 !important;
+}
+nav .icons {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+nav .icons i {
+  font-size: 20px;
+}
+nav .icons i:hover {
+  color: #6c7ae0;
+}
+
+@media screen and (max-width: 378px) {
+  #freeShiping {
+    display: none;
+  }
+}
+#menCollection {
+  width: 100%;
+  min-height: 531px;
+  background-image: url(/assets/images/slide-02\ \(1\).jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#menCollection .menCollectionTxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#menCollection .menCollectionTxt p {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #333333;
+}
+#menCollection .menCollectionTxt h2 {
+  font-size: 60px;
+  line-height: 66px;
+  font-weight: 600;
+  font-family: PlayfairDisplay-Bold;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+#menCollection .menCollectionTxt button {
+  width: 15%;
+  height: 46px;
+  border: none;
+  background-color: #6c7ae0;
+  transition: 0.6s ease;
+  border-radius: 20px;
+  color: white;
+  font-family: poppins;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+#menCollection .menCollectionTxt button:hover {
+  background-color: #222;
+}
+
+@media screen and (max-width: 768px) {
+  #menCollection .menCollectionTxt button {
+    font-size: 10px;
+  }
+  #menCollection .menCollectionTxt h2 {
+    font-size: 40px;
+  }
+  #menCollection .menCollectionTxt p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 668px) {
+  #menCollection .menCollectionTxt button {
+    font-size: 10px;
+  }
+  #menCollection .menCollectionTxt h2 {
+    font-size: 30px;
+  }
+  #menCollection .menCollectionTxt p {
+    font-size: 17px;
+  }
+}
+#womenMan {
+  width: 100%;
+  min-height: 410px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#womenMan .womenManTxt {
+  width: 100%;
+  position: relative;
+}
+#womenMan .womenManTxt img {
+  width: 100%;
+  border: 1px solid #ebe6e6;
+}
+#womenMan .womenManTxt .women {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  left: 20px;
+  top: 40px;
+}
+#womenMan .womenManTxt .women span {
+  font-family: poppins;
+  font-size: 28px;
+  font-weight: 600;
+  color: #222;
+}
+#womenMan .womenManTxt .women .spring {
+  font-family: poppins;
+  font-size: 14px;
+  line-height: 24px;
+  color: #222;
+}
+
+#PRODUCTOVERVIEW {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+}
+#PRODUCTOVERVIEW .PRODUCTOVERVIEWTxt {
+  height: 150px;
+  position: relative;
+}
+#PRODUCTOVERVIEW .PRODUCTOVERVIEWTxt h3 {
+  height: 60px;
+  width: 100%;
+  font-family: poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #222;
+}
+#PRODUCTOVERVIEW .PRODUCTOVERVIEWTxt .allProducts {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+#PRODUCTOVERVIEW .PRODUCTOVERVIEWTxt .allProducts p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #797979;
+}
+#PRODUCTOVERVIEW .PRODUCTOVERVIEWTxt #searchProducts {
+  width: 100%;
+  position: absolute;
+  background-color: white;
+}
+#PRODUCTOVERVIEW .PRODUCTOVERVIEWTxt #searchProducts img {
+  width: 30%;
+}
+#PRODUCTOVERVIEW .search {
+  border: 1px solid #222;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+#PRODUCTOVERVIEW .search input {
+  background-color: transparent;
+  border: none;
+  padding-left: 10px;
+  min-width: 92%;
+  height: 100%;
+  border-radius: 20px;
+}
+#PRODUCTOVERVIEW .search #btn {
+  background-color: transparent;
+  border: none;
+  padding-right: 10px;
+}
+#PRODUCTOVERVIEW #products {
+  width: 95%;
+  min-height: 500px;
+  display: flex;
+  gap: 10px;
+}
+#PRODUCTOVERVIEW #products .myDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#PRODUCTOVERVIEW #products .myDiv img {
+  width: 100%;
+  border-radius: 10px;
+}
+#PRODUCTOVERVIEW #products .myDiv h2 {
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #222;
+}
+#PRODUCTOVERVIEW #products .myDiv button {
+  width: 30%;
+  min-height: 34px;
+  border: none;
+  background-color: #6c7ae0;
+  transition: 0.6s ease;
+  border-radius: 10px;
+  color: white;
+  font-family: poppins;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+#PRODUCTOVERVIEW #products .myDiv button:hover {
+  background-color: #222;
+}
+
+@media screen and (max-width: 768px) {
+  #PRODUCTOVERVIEW .PRODUCTOVERVIEWTxt h3 {
+    font-size: 30px;
+  }
+  #PRODUCTOVERVIEW .PRODUCTOVERVIEWTxt .allProducts {
+    flex-wrap: wrap;
+  }
+  #PRODUCTOVERVIEW .PRODUCTOVERVIEWTxt .search {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  #PRODUCTOVERVIEW #products {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 393px) {
+  #PRODUCTOVERVIEW .PRODUCTOVERVIEWTxt h3 {
+    font-size: 25px;
+  }
+}
+footer {
+  width: 100%;
+  min-height: 200px;
+  background-color: #222222;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+}
+footer .bankCart img {
+  cursor: pointer;
+}
+footer p {
+  color: #797979;
+}
+footer p span {
+  color: #0056b3;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+footer p span:hover {
+  color: #023770;
+}
